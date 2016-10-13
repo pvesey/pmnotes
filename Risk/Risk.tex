@@ -2,126 +2,54 @@
 % Version 0.1
 % by Paul Vesey
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Switch between these for presentation
-% and A4 Lecture Notes
-%\documentclass[ignorenonframetext,red]{beamer}     % use this for presentations and slide handouts
-%\documentclass[ignorenonframetext]{beamer}     % use this for presentations and slide handouts
-%\documentclass[a4paper]{article}     % use this to print the notes
-
-%\documentclass{beamer}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Turn off all of these for A4 Notes
-%
-\mode<presentation> {
-%\usetheme{lankton-keynote} % Seperate Download
-%\usetheme{Madrid}
-\usetheme{Antibes}
-\setbeamercovered{invisible}
-\setbeamertemplate{navigation symbols}{} 
-}
-
-%%\mode<presentation>{}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\usepackage{eurosym}
-\usepackage{graphicx}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%THIS IS FOR PRINTING SLIDE HANDOUTS
-%\usepackage{pgfpages}
-%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%THIS IS FOR PRINTING A4 NOTES
-%
-%\usepackage{beamerarticle}    % Turn this on for A4 notes
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+\input{../headmaterial.tex}
 
 
 %\usepackage{bm} 
 % For typesetting bold math (not \mathbold)
 %\logo{\includegraphics[height=0.6cm]{yourlogo.eps}}
 %
-\title[Project Management]{Project Risk Management}
-%
-\author{Paul Vesey}
-\institute[LIT]
-{
-Limerick Institute of Technology \\
-\medskip
-{\emph{paul.vesey@lit.ie}}
-}
-\date{2013-2014}
-% \today will show current date. 
-% Alternatively, you can specify a date.
+\title[Project Risk Management]{Project Risk Management}
 
 \begin{document}
 %
+\usetikzlibrary{arrows}
+\usepgflibrary{patterns}
 
+
+\input{../titlepage.tex}
+\newpage
+\tableofcontents
+
+\newpage
+
+\thispagestyle{empty}
 \tableofcontents
 \newpage
+\section{Introduction}
 
 
 
 \begin{frame}
 \titlepage
-\end{frame}
+\end{frame}\begin{center}\line(1,0){250}\end{center}
 %
 %
-
-
-\section{Project Risk Management}
-
-\subsection{Introduction}
-
+\begin{center}\line(1,0){250}\end{center}
 
 \begin{frame}
 \frametitle{Project Risk Management}
-Project Management
-Year 4
+Risk is a measure of the probability and consequence of not achieving a defined project goal.
+Risk has two primary components
+\begin{itemize}
+	\item A probability of occurrence of that event - likelihood
+	\item Impact of the event occurring - How much will it cost?
+\end{itemize}
+Risk is a function of likelihood and impact
 \end{frame}
 
 
-\begin{center}
-\line(1,0){250}
-\end{center}
-
-\begin{frame}
-\frametitle{Project Risk Management}
-
-
-\begin{itemize}
-\item Risk is a measure of the probability and consequence of not achieving a defined project goal.
-\item Risk has two primary components
-\begin{itemize}
-	\item A probability of occurrence of that event
-\end{itemize}
-\item likelihood
-\begin{itemize}
-	\item Impact of the event occurring
-\end{itemize}
-\item How much will it cost?
-\item Risk is a function of likelihood and impact
-\end{itemize}
-\end{frame}
-
-
-\begin{center}
-\line(1,0){250}
-\end{center}
+\begin{center}\line(1,0){250}\end{center}
 
 \begin{frame}
 \frametitle{Project Risk Management}
@@ -138,18 +66,15 @@ Year 4
 
 \begin{frame}
 \frametitle{Project Risk Management}
-
-\begin{itemize}
-\item Risk is, in effect, a lack of knowledge of future events
+Risk is, in effect, a lack of knowledge of future events
 \begin{itemize}
 	\item Future events that are favourable are called opportunities
-\item Future events that are unfavourable are called risks
+	\item Future events that are unfavourable are called risks
 \end{itemize}
-\item Another element of risk is its cause.
+Another element of risk is its cause.
 \begin{itemize}
 	\item This can be something present or something missing
-\item This is referred to as a ‘hazard’
-\end{itemize}
+	\item This is referred to as a `hazard'
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -160,20 +85,15 @@ Year 4
 
 
 \begin{frame}
-\frametitle{Project Risk Management}
+\frametitle{Hazards}
+Certain hazards can be overcome by:
 \begin{itemize}
-\item Hazards
-\begin{itemize}
-	\item Certain hazards can be overcome by
+	\item Knowing what they are
+	\item Taking action to overcome them
+	\item So Risk is also a function of the hazard and the safeguard
 \end{itemize}
-\item Knowing what they are
-\item Taking action to overcome them
-\item So Risk is also a function of the hazard and the safeguard
+Risk Increases with hazard and decreases with safeguard
 
-
-
-\item Risk Increases with hazard and decreases with safeguard
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -181,14 +101,11 @@ Year 4
 
 
 \begin{frame}
-\frametitle{Project Risk Management}
-\begin{itemize}
-	\item Tolerance for Risk
+\frametitle{Tolerance for Risk}
 	\begin{itemize}
 		\item Depends on individuals and/or organisations.
 		\item Some companies seek out risk, others avoid
 	\end{itemize}
-\end{itemize}
 \begin{figure}[h]
 	\centering
 		\includegraphics[width = 10cm]{images/Utility1.jpg}
@@ -203,12 +120,10 @@ Year 4
 
 \begin{frame}
 \frametitle{Project Risk Management}
-
 Risk Seeker
 \begin{itemize}
-	\item PM’s satisfaction increases at a greater rate as more money is at stake
+	\item PM's satisfaction increases at a greater rate as more money is at stake
 \end{itemize}
-
 Risk Averter
 \begin{itemize}
 	\item Utility rises at a decreasing rate.
@@ -223,13 +138,12 @@ As more money is at stake the project managers satisfaction diminishes
 
 \begin{frame}
 \frametitle{Project Risk Management}
-\begin{itemize}
-\item The objectives of Project Risk Management are 
+The objectives of Project Risk Management are 
 \begin{itemize}
 	\item to increase the probability and impact of positive events 
 \item and to decrease the probability and impact of negative events
 \end{itemize}
-\item Project Risk Management includes
+Project Risk Management includes:
 \begin{itemize}
 	\item Plan Risk Management
 \item Identify Risks
@@ -237,7 +151,6 @@ As more money is at stake the project managers satisfaction diminishes
 \item Perform Quantitative Risk Analysis
 \item Plan Risk Responses
 \item Monitor and Control Risks
-\end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -253,10 +166,7 @@ As more money is at stake the project managers satisfaction diminishes
 		\includegraphics[width = 10cm]{images/Fig11-2.jpg}
 	\label{fig:11-2}
 \end{figure}
-\begin{itemize}
-\item Part of the Planning Process Group
-\end{itemize}
-\label{testslide}
+Part of the Planning Process Group
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 \includeslide[height=5cm]{testslide}
@@ -264,26 +174,19 @@ As more money is at stake the project managers satisfaction diminishes
 
 \begin{frame}
 \frametitle{Plan Risk Management}
-\begin{itemize}
-\item Inputs
+Inputs
 \begin{itemize}
 	\item Enterprise Environmental Factors
 \end{itemize}
-	
-\item Attitude towards risk and the risk tolerance of the organisation, and individuals
+Attitude towards risk and the risk tolerance of the organisation, and individuals
 \begin{itemize}
 	\item Organisational Process Assets
 \end{itemize}
-\item Predefined approaches to risk management, such as risk categories, standard templates, and authority levels for decision making
+Predefined approaches to risk management, such as risk categories, standard templates, and authority levels for decision making
 \begin{itemize}
 	\item Project Scope Statement
-\end{itemize}
-\item Refer to book and previous lectures
-\begin{itemize}
 	\item Cost/Schedule Management Plans
 \end{itemize}
-\item Refer to book and previous lectures
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -291,29 +194,24 @@ As more money is at stake the project managers satisfaction diminishes
 
 \begin{frame}
 \frametitle{Plan Risk Management}
-\begin{itemize}
-\item Tools and Techniques
+Tools and Techniques
 \begin{itemize}
 	\item Planning Meetings and Analysis
+	\item Meeting to develop Risk Management Plan
+	\item Attendees may include PM, PM team, stakeholders
 \end{itemize}
-\item Meeting to develop Risk Management Plan
-\item Attendees may include PM, PM team, stakeholders
-\item Outputs
+Outputs
 \begin{itemize}
 	\item Risk Management Plan
-\end{itemize}
-\item Methodology
-\item Roles and Responsibilities
-\item Budgeting
-\item Timing
-\item Risk Categories
-\item Definitions of Risk Probability and Impact
-\begin{itemize}
-	\item Probability and Impact Matrix
-\end{itemize}
-\item Revised Stakeholders Tolerances
-\item Reporting Formats
-\item Tracking
+	\item Methodology
+	\item Roles and Responsibilities
+	\item Budgeting
+	\item Timing
+	\item Risk Categories
+	\item Definitions of Risk Probability and Impact (Probability and Impact Matrix)
+	\item Revised Stakeholders Tolerances
+	\item Reporting Formats
+	\item Tracking
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -322,24 +220,22 @@ As more money is at stake the project managers satisfaction diminishes
 
 
 \begin{frame}
-\frametitle{Plan Risk Management}
-\begin{itemize}
-\item Risk Management Plan
+\frametitle{Risk Management Plan}
+
 \begin{itemize}
 	\item Methodology
-\end{itemize}
-\item Defines approaches tools and data sources
-\begin{itemize}
-	\item Roles and Responsibilities
-\end{itemize}
-\item Defines Lead, support and risk management team membership for each type of activity in the risk management plan, assigns people to these roles, and clarifies their responsibility
-\begin{itemize}
-	\item Budgeting
-\end{itemize}
-\item Assigns resources and estimated costs needed for risk management.
-\begin{itemize}
-	\item Included in the project baseline costs
-\end{itemize}
+	\item Defined approaches, tools, and data sources
+		\begin{itemize}
+			\item Roles and Responsibilities
+		\end{itemize}
+		\item Defines Lead, support and risk management team membership for each type of activity in the risk management plan, assigns people to these roles, and clarifies their responsibility
+		\begin{itemize}
+			\item Budgeting
+		\end{itemize}
+		\item Assigns resources and estimated costs needed for risk management.
+		\begin{itemize}
+			\item Included in the project baseline costs
+		\end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -348,19 +244,19 @@ As more money is at stake the project managers satisfaction diminishes
 
 
 \begin{frame}
-\frametitle{Plan Risk Management}
-\begin{itemize}
-\item Risk Management Plan
+\frametitle{Risk Management Plan}
+
 \begin{itemize}
 	\item Timing
-\end{itemize}
-\item Defines when and how risk management processes will be performed
-\item Establishes Risk Management activities to be included in project schedule
-\begin{itemize}
+	\begin{itemize}
+		\item Defines when and how risk management processes will be performed
+		\item Establishes Risk Management activities to be included in project schedule
+	\end{itemize}
 	\item Risk Categories
-\end{itemize}
-\item Provides a structure that ensures a comprehensive, systematic process to identify risk.
-\item Risk Breakdown Structure (RBS)
+	\begin{itemize}
+		\item Provides a structure that ensures a comprehensive, systematic process to identify risk.
+		\item Risk Breakdown Structure (RBS)
+	\end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -371,7 +267,7 @@ As more money is at stake the project managers satisfaction diminishes
 \frametitle{Plan Risk Management}
 \begin{figure}
 	\centering
-		\includegraphics[width = 10cm]{images/RBS.jpg}
+		\includegraphics[width = 9cm]{images/RBS.jpg}
 	\label{fig:11-4OLD}
 \end{figure}
 \begin{itemize}
@@ -385,22 +281,20 @@ As more money is at stake the project managers satisfaction diminishes
 
 
 \begin{frame}
-\frametitle{Plan Risk Management}
-\begin{itemize}
-\item Risk Management Plan
-\item Definitions of Risk Probability and Impact
+\frametitle{Risk Management Plan}
+Definitions of Risk Probability and Impact
 \begin{itemize}
 	\item The Quality and Credibility of the Qualitative Risk Analysis Process
-\item Assigns a relative scale for probability
-\end{itemize}
-» ‘very unlikely’ to ‘almost certain’
-» Very unlikely = Government not paying contractor
-» Almost certain = Final account dispute
-» May also be 1.0 to 0.0
-\begin{itemize}
+	\item Assigns a relative scale for probability
+
+	\begin{itemize}
+		\item `very unlikely' to `almost certain'
+		\item Very unlikely = Government not paying contractor
+		\item Almost certain = Final account dispute
+		\item May also be 1.0 to 0.0
+	\end{itemize}
 	\item Probability and Impact Matrix
 \end{itemize}
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -410,14 +304,12 @@ As more money is at stake the project managers satisfaction diminishes
 
 \begin{frame}
 \frametitle{Plan Risk Management}
-\begin{itemize}
-\item Impact Scale
+Impact Scale
 \begin{figure}
 	\centering
-		\includegraphics[width = 10cm]{images/Table11-1.jpg}
+		\includegraphics[width = 9cm]{images/Table11-1.jpg}
 	\label{tab:11-1}
 \end{figure}
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -426,10 +318,8 @@ As more money is at stake the project managers satisfaction diminishes
 
 
 \begin{frame}
-\frametitle{Plan Risk Management}
-\begin{itemize}
-\item Risk Management Plan
-\item Definitions of Risk Probability and Impact
+\frametitle{Risk Management Plan}
+Definitions of Risk Probability and Impact
 \begin{itemize}
 	\item Probability and Impact Matrix
 \end{itemize}
@@ -438,7 +328,6 @@ As more money is at stake the project managers satisfaction diminishes
 		\includegraphics[width = 10cm]{images/Fig11-10.jpg}
 	\label{fig:11-10}
 \end{figure}
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -447,87 +336,33 @@ As more money is at stake the project managers satisfaction diminishes
 
 
 \begin{frame}
-\frametitle{Plan Risk Management}
+\frametitle{Risk Management Plan}
+Revised Stakeholders Tolerances - As project risks are identified, stakeholders may change their tolerance for specific risks.
 \begin{itemize}
-\item Risk Management Plan
-\item Revised Stakeholders Tolerances
-\item As project risks are identified, stakeholders may change their tolerance for specific risks.
-» Schedule Risks
-» Budget Risk
-» Quality Risk
-\item Reporting Formats
+	\item Schedule Risks
+	\item Budget Risk
+	\item Quality Risk
+\end{itemize}
+Reporting Formats
 \begin{itemize}
 	\item Content and Format of Risk Register
-\item Defines how outcomes of risk management will be documented
+	\item Defines how outcomes of risk management will be documented
 \end{itemize}
-\item Tracking
+Tracking
 \begin{itemize}
 	\item Documents how all facets of risk activities will be recorded for the benefit of the current project, future needs, and lessons learned
 \end{itemize}
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
-
-
-
-
-
-\begin{frame}
-\frametitle{Plan Risk Management}
-\begin{itemize}
-\item Risk Management Plan
-\item Methodology
-\begin{itemize}
-	\item Defines approaches tools and data sources
-\end{itemize}
-\item Roles and Responsibilities
-\item Budgeting
-\item Timing
-\item Risk Categories
-\item Definitions of Risk Probability and Impact
-\begin{itemize}
-	\item Probability and Impact Matrix
-\end{itemize}
-\item Revised Stakeholders Tolerances
-\item Reporting Formats
-\item Tracking
-\end{itemize}
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-
-
-
-
-
-
-%% END OF LECTURE SLIDE
-\begin{frame}
-\frametitle{Next Lecture}{Reading:}
-‘A Guide to the Project Management Body of Knowledge’\\ 
-Chapter 11 - Project Risk Management
-\begin{figure}[h]
-	\centering
-		\includegraphics[width = 4cm]{images/book.jpg}
-\end{figure}
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-%% END OF LECTURE SLIDE
 
 
 
 \begin{frame}
 \frametitle{Project Risk Management}
-Project Management
-Year 4
-\end{frame}\begin{center}\line(1,0){250}\end{center}
+Because of the unique and temporary nature of projects, projects carry a greater level of risk than operations.\\
 
+Risk may be defined as an uncertain event or condition that, if it occurs, has an effect on the project objectives.\\
 
-
-\begin{frame}
-\frametitle{}
-\begin{itemize}
-\item Because of the unique and temporary nature of projects, projects carry a greater level of risk than operations.
-
-\item Risk may be defined as an uncertain event or condition that, if it occurs, has an effect on the project objectives.
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -537,15 +372,13 @@ Year 4
 
 \begin{frame}
 \frametitle{}
-\begin{itemize}
-\item Managing project risk is an integral part of Project Management and critical to project success. 
-\item Not managing project risk may result in:
+Managing project risk is an integral part of Project Management and critical to project success. 
+Not managing project risk may result in:
 \begin{itemize}
 	\item Over Budget
-\item Over Time
-\item Poor Project Performance
-\item Loss of reputation
-\end{itemize}
+	\item Over Time
+	\item Poor Project Performance
+	\item Loss of reputation
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -555,11 +388,11 @@ Year 4
 
 \begin{frame}
 \frametitle{Risk Management}
-\begin{itemize}
-	\item RM includes the processes concerned with identifying, analysis and responding to uncertainty.
-	\item The purpose of risk management is to identify the risk factors for a project and then establish a risk management plan to minimize the probability \& impact that the negative risk event will have on the project. 
-	\item The goal of risk management is to identify project risks and develop strategies, which either significantly reduce them or take steps to avoid them altogether.
-\end{itemize}
+
+RM includes the processes concerned with identifying, analysis and responding to uncertainty.\\
+The purpose of risk management is to identify the risk factors for a project and then establish a risk management plan to minimize the probability \& impact that the negative risk event will have on the project. \\
+The goal of risk management is to identify project risks and develop strategies, which either significantly reduce them or take steps to avoid them altogether.\\
+
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -569,12 +402,10 @@ Year 4
 
 \begin{frame}
 \frametitle{Risk Management}
-\begin{itemize}
-\item A Risk is a potential future problem that has not yet occurred 
+A Risk is a potential future problem that has not yet occurred 
 \begin{itemize}
 	\item A reactive project manager tries to resolve issues when they occur. 
 \item A proactive project manager tries to resolve potential problems before they occur. 
-\end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -609,14 +440,9 @@ Year 4
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
-
-
-
-
 \begin{frame}
 \frametitle{Risk Management}
 RM includes the processes concerned with identifying, analysis and responding to uncertainty. 
-
 \begin{itemize}
 	\item Risk Identification
 	\item Risk Quantification
@@ -633,23 +459,21 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Management}
-\begin{itemize}
-\item IDENTIFICATION: 
+IDENTIFICATION: 
 \begin{itemize}
 	\item Sources, events, probability x amount at stake
 \end{itemize}
-\item QUANTIFICATION:  
+QUANTIFICATION:  
 \begin{itemize}
 	\item Influence diagrams, probability distribution, probability trees, risk modelling, sensitivity profiles
 \end{itemize}
-\item RESPONSE DEVELOPMENT: 
+RESPONSE DEVELOPMENT: 
 \begin{itemize}
 	\item Avoid, transfer, mitigate, retain/accept, 
 \end{itemize}
-\item RESPONSE CONTROL: 
+RESPONSE CONTROL: 
 \begin{itemize}
 	\item Execute plan in event 
-\end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -660,9 +484,7 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Analysis}
-\begin{itemize}
-\item Risk needs to be measured in terms of its potential impact or cost on the project, and the probability that the risk event will actually occur.  
-\end{itemize}
+Risk needs to be measured in terms of its potential impact or cost on the project, and the probability that the risk event will actually occur.  
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -687,15 +509,12 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Response}
-	For each risk identified a Risk Response Strategy that should be considered.
-\begin{itemize}
-\item Choices are:
+For each risk identified a Risk Response Strategy that should be considered. Choices are:
 \begin{itemize}
 	\item Risk Avoidance
-\item Risk Transference
-\item Risk Mitigation
-\item Risk Acceptance
-\end{itemize}
+	\item Risk Transference
+	\item Risk Reduction
+	\item Risk Acceptance
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -707,9 +526,9 @@ RM includes the processes concerned with identifying, analysis and responding to
 \begin{frame}
 \frametitle{Risk Levels}
 \begin{itemize}
-\item Risk occurs in different ways at every level of an organisation.
-\item Risk may occur at the strategic level, programme level, project level and operational level.
-\item Strategic Risk may be described as risk to the business strategy and is the concern and responsibility of the Management team.
+	\item Risk occurs in different ways at every level of an organisation.
+	\item Risk may occur at the strategic level, programme level, project level and operational level.
+	\item Strategic Risk may be described as risk to the business strategy and is the concern and responsibility of the Management team.
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
@@ -720,17 +539,15 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Levels - Programme Risk}
-\begin{itemize}
-\item Risk at this level could be due to:
+Risk at this level could be due to:
 \begin{itemize}
 	\item Interdependencies between projects
-\item Overall resource levels
-\item Changes in approved budget
-\item Materials supply capability
-\item The wider system -the political, economic, social, technological environment
+	\item Overall resource levels
+	\item Changes in approved budget
+	\item Materials supply capability
+	\item The wider system - the political, economic, social, technological environment
 \end{itemize}
-\item These risks affect many projects simultaneously, and are managed by the Programme manager.
-\end{itemize}
+These risks affect many projects simultaneously, and are managed by the Programme manager.
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -739,18 +556,17 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 
 \begin{frame}
-\frametitle{Risk Levels --?? Project \& Operational}
-\begin{itemize}
-\item Project Risks:  
+\frametitle{Risk Levels - Project \& Operational}
+Project Risks:  
 	\begin{itemize}
 		\item Risks at this level are threats to the success of a single project, and most often impact the principal targets of scope, time, cost, and quality, though may impact other knowledge areas at the same time. Risks that threaten the success of the project are the responsibility of the Project manager.
 	\end{itemize}
-\item Operational Risk: 
+Operational Risk: 
 	\begin{itemize}
 		\item The day-to-day operations are also subject to risks. Matters such as health and safety, industrial relations are amongst the operational risks faced by an organisation.
 	\end{itemize}
-\item The identification of risks at different organisational levels allow identification of who has responsibility for the risk.
-\end{itemize}
+The identification of risks at different organisational levels allow identification of who has responsibility for the risk.
+
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -774,7 +590,7 @@ RM includes the processes concerned with identifying, analysis and responding to
 \begin{frame}
 \frametitle{Risk Identification}
 \begin{itemize}
-\item The identification of risk should occur as early as possible –i.e. in the conception and definition phase. Risk identification requires an understanding of the project scope and objectives and deciding what may prevent the achievement of them.
+\item The identification of risk should occur as early as possible - i.e. in the conception and definition phase. Risk identification requires an understanding of the project scope and objectives and deciding what may prevent the achievement of them.
 \item The project charter will set out the high level risks to the project. It will also identify the success criteria by which the project will be judged later.
 \begin{itemize}
 	\item The potential risks to the project are identified as comprehensively as possible
@@ -804,30 +620,28 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Categories}
-\begin{itemize}
-\item Technical Risks
+Technical Risks
 \begin{itemize}
 	\item Robustness of the solution
-\item Complexity of the system
-\item Ownership
+	\item Complexity of the system
+	\item Ownership
 \end{itemize}
-\item Business / Management Risk
+Business / Management Risk
 \begin{itemize}
 	\item Financing
-\item Revenue / Cost / Margin
-\item Shareholders
+	\item Revenue / Cost / Margin
+	\item Shareholders
 \end{itemize}
-\item Delivery / Operational Risks
+Delivery / Operational Risks
 \begin{itemize}
 	\item Training \& Training Support
-\item Human Resource Considerations
-\item Complexity
-\item Product Life Cycle
-\item On going support
+	\item Human Resource Considerations
+	\item Complexity
+	\item Product Life Cycle
+	\item On going support
 \end{itemize}
-\item Cost
-\item Schedule
-\end{itemize}
+Cost
+Schedule
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -837,21 +651,19 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 \begin{frame}
 \frametitle{Risk Recording and Scoring}
-\begin{itemize}
-	\item A table for recording project risks is called a Risk Log. 
+A table for recording project risks is called a Risk Log. 
 		\begin{itemize}
 			\item All identified risks must be recorded in the Risk Log. Risks with a significant potential impact may cause immediate alteration of the Project Plan, and therefore another iteration of risk identification is required
 		\end{itemize}
 
-	\item Risk Analysis
+Risk Analysis
 	\begin{itemize}
 		\item Risk analysis involves assessing the probability of a risk occurring and its likely impact if it does occur. The ranking or scoring of risk involves the following calculation
 	\end{itemize}
-	\item Risk Ranking/Scoring = Probability x Impact
+Risk Ranking/Scoring = Probability x Impact
 	\begin{itemize}
 		\item (High, medium , low)
 	\end{itemize}
-\end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -874,7 +686,7 @@ RM includes the processes concerned with identifying, analysis and responding to
 \frametitle{}
 \begin{figure}
 	\centering
-		\includegraphics[width = 5 cm]{images/veo2.jpg}
+		\includegraphics[width = 8 cm]{images/veo2.jpg}
 	\label{fig:veo2}
 \end{figure}
 
@@ -888,7 +700,7 @@ RM includes the processes concerned with identifying, analysis and responding to
 \frametitle{}
 \begin{figure}
 	\centering
-		\includegraphics[width = 5 cm]{images/veo3.jpg}
+		\includegraphics[width = 3 cm]{images/veo3.jpg}
 	\label{fig:veo3}
 \end{figure}
 
@@ -898,42 +710,10 @@ RM includes the processes concerned with identifying, analysis and responding to
 
 
 \begin{frame}
-\frametitle{}
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-
-
-
-%% END OF LECTURE SLIDE
-\begin{frame}
-\frametitle{Next Lecture}{Reading:}
-‘A Guide to the Project Management Body of Knowledge’\\ 
-Chapter 11 - Project Risk Management
-\begin{figure}[h]
-	\centering
-		\includegraphics[width = 4cm]{images/book.jpg}
-\end{figure}
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-%% END OF LECTURE SLIDE
-
-
-
-
-
-\begin{frame}
-\frametitle{Project Risk Management}
-Project Management
-Year 4
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-
-
-
-
-
-\begin{frame}
 \frametitle{Qualitative Analysis}
 \begin{figure}
 	\centering
-		\includegraphics[width = 10cm ]{images/Matrix3.jpg}
+		\includegraphics[width = 8cm ]{images/Matrix3.jpg}
 	\label{fig:Matrix3.png}
 \end{figure}
 
@@ -946,7 +726,7 @@ Year 4
 \frametitle{Risk Importance}
 \begin{itemize}
 \item Consider the relative impact each risk will have on the project if it happens. 
-\item Note that low probability risks are often high on impact! 
+\item Note that low probability risks are often high on impact 
 \item Alternatively the Risk Probability/Impact Matrix maybe used to establish risk ranking by placing each risk in its correct box in the grid.
 \item The distribution of risks over this matrix gives an overall view of the project risk level. 
 \begin{itemize}
@@ -963,7 +743,7 @@ Year 4
 \frametitle{Risk Probability \& Impact Matrix}
 \begin{figure}
 	\centering
-		\includegraphics[width = 10cm]{images/Matrix2.jpg}
+		\includegraphics[width = 8cm]{images/Matrix2.jpg}
 	\label{fig:Matrix2}
 \end{figure}
 
@@ -975,9 +755,8 @@ Year 4
 
 \begin{frame}
 \frametitle{Risk Response}
-\begin{itemize}
-\item Once the risks are identified, analysed and prioritised, a plan of action to manage them is developed. 
-\item There are 5 response types. (PMBOK gives 4) These are
+Once the risks are identified, analysed and prioritised, a plan of action to manage them is developed. \\
+There are 5 response types. (PMBOK gives 4) These are
 \begin{itemize}
 	\item Avoidance, 
 \item Transfer, 
@@ -985,8 +764,8 @@ Year 4
 \item Contingency  
 \item Acceptance. 
 \end{itemize}
-\item If a risk has more than one response option, put multiple entries in the Risk Register
-\end{itemize}
+If a risk has more than one response option, put multiple entries in the Risk Register
+
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -1009,7 +788,7 @@ Year 4
 \begin{frame}
 \frametitle{Response Selection}
 \begin{itemize}
-\item Do not dwell too long on the Response Type –it is more important to record the details of your risk mitigation.
+\item Do not dwell too long on the Response Type - it is more important to record the details of your risk mitigation.
 \item Responses should be consistent with the project priorities. For example if the schedule is the top priority, try not to plan responses that will add time to schedule.
 \item Make certain that the response you plan does not end up costing more time or money that the risk you are tying to cover. 
 \begin{itemize}
@@ -1115,7 +894,7 @@ Decision Making Processes:
 \frametitle{Decision Trees}
 \begin{figure}
 	\centering
-		\includegraphics[width = 10cm]{images/Fig11-16.jpg}
+		\includegraphics[width = 3cm]{images/Fig11-16.jpg}
 	\label{fig:11-16}
 \end{figure}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
@@ -1204,32 +983,10 @@ Decision trees provide an effective method of Decision Making because they:
 \begin{frame}
 \frametitle{Need for Care}
 \begin{itemize}
-\item  As with all Decision Making methods, decision tree analysis should be used in conjunction with common sense - decision trees are just one important part of your Decision Making tool kit. 
+\item As with all Decision Making methods, decision tree analysis should be used in conjunction with common sense - decision trees are just one important part of your Decision Making tool kit. 
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
-
-
-
-
-
-\begin{frame}
-\frametitle{Next Lecture:}
-Reading: 
-‘A Guide to the Project Management Body of Knowledge’ Chapter 11
-Project Risk Management
-\end{frame}\begin{center}\line(1,0){250}\end{center}
-
-
-
-
-
-
-\begin{frame}
-\frametitle{Project Risk Management}
-Project Management
-Year 4
-\end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
 
@@ -1242,9 +999,7 @@ Year 4
 		\includegraphics[width = 10cm]{images/Fig11-11.jpg}
 	\label{fig:11-11}
 \end{figure}
-\begin{itemize}
-\item Part of the Planning Process Group
-\end{itemize}
+Part of the Planning Process Group
 \end{frame}\begin{center}\line(1,0){250}\end{center}
 
 
@@ -1312,7 +1067,7 @@ Year 4
 		\begin{itemize}
 			\item Used to quantify the probability and impact of risks on project objectives
 		\end{itemize}
-	\item Breakdown into ‘optimistic’, ‘most-likely’, and ‘pessimistic’ 
+	\item Breakdown into `optimistic', `most-likely', and `pessimistic' 
 	\item three point estimates
 	\item Can provide information on the reliability and credibility of the analysis
 	\item Probability Distributions
@@ -1368,7 +1123,7 @@ Year 4
 	\item Sensitivity Analysis
 	\begin{itemize}
 		\item Helps to determine which risks have the most potential impact on the project
-		\item Examines the extent to which an individual project element will affect the project, when all other uncertain elements are held at ‘baseline’.
+		\item Examines the extent to which an individual project element will affect the project, when all other uncertain elements are held at `baseline'.
 	\end{itemize}
 	\item Expected Monetary Value Analysis
 	\begin{itemize}
@@ -1418,13 +1173,13 @@ Year 4
 \frametitle{Sensitivity Analysis Example}
 Selection of Alternatives
 \begin{itemize}
-\item A new hospital facility can be constructed to meet current and future patient projections over the next 20 years, or in two stages, one now and the next ‘n’ years from now
+\item A new hospital facility can be constructed to meet current and future patient projections over the next 20 years, or in two stages, one now and the next ‘n' years from now
 \begin{itemize}
 	\item Construction Costs
 \end{itemize}
 \item Full Capacity Construction	€140M
 \item Two Stage: 1st Stage		€100M
-			 2nd Stage ‘n’ years 
+			 2nd Stage ‘n' years 
 			 from now		€120M
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
@@ -1444,7 +1199,7 @@ Selection of Alternatives
 \item Calculation
 \begin{itemize}
 	\item We know the PW of constructing the entire hospital now, so we will use PW analysis
-\item We will use MS Excel, and therefore evaluate the option ‘2 stage construction’ each year
+\item We will use MS Excel, and therefore evaluate the option ‘2 stage construction' each year
 \end{itemize}
 \end{itemize}
 \end{frame}\begin{center}\line(1,0){250}\end{center}
@@ -1560,9 +1315,9 @@ After Year 15 it becomes more economical to build in two stages
 \begin{frame}
 \frametitle{Plan Risk Responses}
 \begin{itemize}
-\item Risk Response Planning is the Process of developing options, and determining actions to enhance opportunities and reduce threats to the project’s objectives.
+\item Risk Response Planning is the Process of developing options, and determining actions to enhance opportunities and reduce threats to the project's objectives.
 \begin{itemize}
-	\item Much of Risk Management focuses on negative risks; don’t forget about opportunities
+	\item Much of Risk Management focuses on negative risks; don't forget about opportunities
 \end{itemize}
 \item Risk Response Planning addresses risks by their priority by including resources, and activities into the budget, schedule, and PM plan, as needed.
 \item Selecting the best response from several possible approaches is very common
@@ -1607,7 +1362,7 @@ After Year 15 it becomes more economical to build in two stages
 \item Avoid
 \begin{itemize}
 	\item Change PM Plan to eliminate risk or threat.
-\item Isolate project objectives from risk’s impact
+\item Isolate project objectives from risk's impact
 \item Some risks can be avoided by clarifying requirements, obtaining information, improving communications, or acquiring expertise
 \end{itemize}
 \item Transfer
@@ -1677,7 +1432,7 @@ After Year 15 it becomes more economical to build in two stages
 %% END OF LECTURE SLIDE
 \begin{frame}
 \frametitle{Next Lecture}{Reading:}
-‘A Guide to the Project Management Body of Knowledge’\\ 
+`A Guide to the Project Management Body of Knowledge'\\ 
 Chapter 11 - Project Risk Management
 \begin{figure}[h]
 	\centering
@@ -1919,7 +1674,7 @@ Year 4
 
 \begin{frame}
 \frametitle{Monte Carlo Simulation Example}
-	A project is expected to cost €120,000.  Six independent risks and one opportunity have been identified during ‘Risk Identification’.
+	A project is expected to cost €120,000.  Six independent risks and one opportunity have been identified during `Risk Identification'.
 \begin{itemize}
 \item A, cost of occurrence: €7,500; probability of occurrence 0.20  
 \item B, cost of occurrence: €5,000; probability of occurrence 0.35 
@@ -2021,7 +1776,7 @@ Range of A from €2,000 to €8,000; Yields Average of circa €130,000\begin{figure}
 %% END OF LECTURE SLIDE
 \begin{frame}
 \frametitle{Next Lecture}{Reading:}
-‘A Guide to the Project Management Body of Knowledge’\\ 
+`A Guide to the Project Management Body of Knowledge'\\ 
 Chapter 12 - Project Procurement Management
 \begin{figure}[h]
 	\centering
