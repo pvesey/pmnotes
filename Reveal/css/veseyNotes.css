@@ -1,0 +1,51 @@
+/*
+
+Specific for BIM Notes
+
+*/
+
+
+img.h200 {
+	height: 200px;
+}
+
+img.h250 {
+	height: 250px;
+}
+
+img.h300 {
+	height: 300px;
+}
+
+img.h350 {
+	height: 350px;
+}
+
+img.h400 {
+	height: 400px;
+}
+
+img.h450 {
+	height: 450px;
+}
+
+img.h500 {
+	height: 500px;
+}
+
+img.h550 {
+	height: 550px;
+}
+
+img.h600 {
+	height: 600px;
+}
+
+
+p.pright {
+	text-align: right;
+}
+
+p.pleft {
+	text-align: left;
+}
