@@ -1,0 +1,69 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage{pgf}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdftitle={Practical Exercises},    % title
+    pdfauthor={Paul Vesey},     % author
+    pdfsubject={Project Management},   % subject of the document
+    pdfcreator={},   % creator of the document
+    pdfproducer={xelatex}, % producer of the document
+    pdfkeywords={'Project Management' }, % list of keywords
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=violet,          % color of internal links (change box color with linkbordercolor)
+    citecolor=magenta,        % color of links to bibliography
+    filecolor=red,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+\setlength\parindent{0pt}
+\begin{document}
+
+\lstset{language=HTML,
+				basicstyle=\small,
+				breaklines=true,
+        numbers=left,
+        numberstyle=\tiny,
+        showstringspaces=false,
+        aboveskip=-20pt,
+        frame=leftline
+        }
+				
+\begin{table}%
+	\begin{minipage}{0.4\textwidth}%
+			\includegraphics[width=1\textwidth]{img/LITlogo.jpg}
+	\end{minipage}
+	\qquad
+	\centering
+	\parbox{0.4\textwidth}{
+		\begin{large}			
+			\begin{tabular}{| r | l |} \hline
+				Subject: & \textbf{Project Management \& BIM}\\
+				Course: & \textbf{CM Year 4}\\
+				        & \textbf{CEM Year 4}\\	
+				Session: & \textbf{2017-2018}\\
+				Lecturer: & \textbf{Paul Vesey \footnotesize{BEng, MIE, HDip}}\\
+				\hline
+			\end{tabular}
+		\end{large}			
+	}
+\end{table}
+\vspace{0.25cm}	

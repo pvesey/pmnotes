@@ -1,0 +1,17 @@
+This online programme is designed to give learners a solid grounding in the field of project management as applied to the construction sector. The programme is aimed at supervisors and managers in the sector and follows the body of knowledge developed by the Project Management Institute (PMI). The topics covered will include:
+
+Project Management Process - Introduction to Project Management and the Project Management Process. Project Management Body of Knowledge (PMBOK) 
+
+The Planning and Scheduling Process - Conceptualisation / Scope management, project time management, project cost management 
+
+Methods of Measuring Work Progress - Updating of schedules (bar charts, networks, line of balance, time chainage). Earned value and forecasting. Trend analysis 
+
+Project Human Resource Management - Staffing, power, delegation, authority, performance appraisal. Role of the Project Manager and the project team 
+
+Project Quality Management - Policy, planning, assurance, control, improvement 
+
+Project Risk Management - Identification, quantification, mitigation. Decision tree analysis. Sensitivity analysis 
+
+Project Procurement Analysis - Planning, solicitation, source selection, contract administration, contract close out 
+
+Project Communications Management - Planning, information distribution, progress reporting, storage/archiving
