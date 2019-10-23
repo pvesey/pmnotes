@@ -1,89 +1,89 @@
 \input{HeadMatter.tex}
 	
 \begin{flushleft}
-\Large\textbf{Assignment 1 (20\%)- BIM Application Integration}\\
+\Large\textbf{Assignment 1 (30\%)- Resourced Project Programme}\\
 \end{flushleft}
 
-In this assignment you are required to utilise a Revit Model to create a Microsoft Project Gantt chart, a 4D Schedule in Navisworks, and a cost profile based on the data from the project plan and the Revit Model.  The key deliverables for this project are:
-
-\begin{enumerate}
-	\item Fully resourced project plan created in Microsoft Project
-	\item 4D project animation produced in Navisworks
-	\item Cost acural model created in Microsoft Excel
-	\item Written report detailing your approach to the assignment and your key findings
-\end{enumerate}
-
-\textbf{Senario}\\
+In this assignment you are going on create a fully resourced Gantt chart using ProjectLibre.  Full details of the tasks, relationships and resources have been provided to you below.  It is left to the learner to allocate resources appropriately. 
 
 
-You have been provided with a Revit Model of a simple single story house.  You are to use this model to create a robust project plan for its construction and handover to the client.  You are also required to create a 4D plan for its construction, and a cost accumulation graph for the duration of the build process.  Your costings should include direct \& indirect labour and the cost of materials.  Where possible, you are required to use current market prices for materials.  In cases where current market prices are not readily available, you can make estimates.  Your report should provide details of your source information.
+\vspace{.5cm}
+\large\textbf{Tasks}\\
+\vspace{.25cm}
+
+\begin{tabular}{|c|l|c|c|}
+	\hline 
+	\textbf{Task Name} & \textbf{Description} & \textbf{Predecessor} & \textbf{Duration} \\ 
+	\hline 
+	
+	1	& Excavate, Pour Foundations &	-	&4\\\hline 
+	2	& Pour Concrete Foundations		&1	&2\\\hline 
+	3	& Erect Frame and Roof			&2	&4\\\hline 
+	4	& Lay Brickwork					&3	&6\\\hline 
+	5	& Install Drainage				&2	&1\\\hline 
+	6	& Pour Basement Floor			&5	&2\\\hline 
+	7	& Install First Fix Plumbing		&5	&3\\\hline 
+	8	& Install First Fix Electrics	&3	&2\\\hline 
+	9	& Install Partitions				&3,6	&4\\\hline
+	10	& Fasten Drywall, Tape \& Plaster	&7,8,9	&10\\\hline 
+	11	& Lay Finished Flooring			&10	&3\\\hline 
+	12	& Install Kitchen Equipment		&11	&1\\\hline 
+	13	& Install Second Fix Plumbing	&11	&2\\\hline 
+	14	& Finish Carpentry				&11	&3\\\hline
+	15	& Finish Roofing and Flashing	&4	&2\\\hline 
+	16	& Fasten Gutters \& Downspouts	&15	&1\\\hline 
+	17	& Lay Storm Drains				&2	&1\\\hline 
+	18	& Sand and Varnish Floors		&14,19	&2\\\hline 
+	19	& Paint							&12,13	&3\\\hline 
+	20	& Install Second Fix Electrical Work	&19	&1\\\hline 
+	21	& Finish Grading					&16,17	&2 \\\hline
+	22	& Pour Walls and Landscape		&21	&5 \\
+	\hline 
+	 
+\end{tabular} 
 
 
+
+
+\newpage
+\large\textbf{Resources}\\
+\vspace{.25cm}
+
+
+\begin{tabular}{|l|l|c|c|}
+	\hline 
+	\textbf{Name} & \textbf{Type} & \textbf{Std Rate} & \textbf{OT Rat}e \\ 
+	\hline 
+	Site Manager	& Work	& \euro100.00/hr & 	\euro150.00/hr\\
+	Plumber			& Work	& \euro50.00/hr	& \euro75.00/hr\\
+	Electrician		& Work	& \euro50.00/hr	& \euro75.00/hr\\
+	Block layer		& Work	& \euro50.00/hr	& \euro75.00/hr\\
+	Carpenter		& Work	& \euro50.00/hr	& \euro75.00/hr\\
+	Painter/Tiler	& Work	& \euro50.00/hr	& \euro75.00/hr\\
+	GO1				& Work	& \euro40.00/hr	& \euro60.00/hr\\
+	GO2				& Work	& \euro40.00/hr	& \euro60.00/hr\\
+	GO3				& Work	& \euro40.00/hr	& \euro60.00/hr\\
+	\hline
+\end{tabular} 
 
 
 
 \vspace{.5cm}
 
-\textbf{Suggested Approach}
+\large\textbf{Suggested Approach}\\
 
 \begin{itemize}
-	\item Use Revit's scheduling functionality to determine counts, areas and volumes for costings.
-	\item Apply 'Cost' or 'Material' resources within Microsoft Project as appropriate.  Cost resources are easier to apply, and can be used in place of 'Material' resources in most instances.
-	\item Using a deliverable orientated approach (WBS) within Microsoft Project will make the process easier to manage
-	\item Cross check your figures against known build costs for a building of similar size and complexity.
-
+	\item Begin by entering the tasks and associated durations
+	\item Enter in the predecessors as indicated to create the full Gantt chart
+	\item Enter the resources into the resources sheet
+	\item Apply the resources to tasks on the Gantt chart view.
 \end{itemize}
 
-\newpage
-\textbf{Report}\\
-Your report should be laid out in a professional manner, as would be done for a client or employer.  This involves, \emph{inter-alia}, a cover page, table of contents, and logical sectioning.  You report must include, but is not limited to:
-\begin{itemize}
-	\item Details of the methodology used to create each component
-	\item Details of how data was extracted from Revit, MS Project and any other application that you elected to use.
-	\item Key findings and results.
-	\item Details of any difficulties that you experienced extracting data from the applications
-	\item Commentary on learning experience and the skills you developed during the production of this assignment.
-\end{itemize}
-  
 \vspace{1cm}
 
 
+\large\textbf{Submission}\\
+Your completed assignment, in the form of your ProjectLibre file, is to be submitted onto Moodle on or before the date or time indicated there.
 
-
-
-\textbf{Submission}\\
-Your completed assignment comprising all computer files and written report are to be zipped into a single file and uploaded to Moodle on or before the date and time indicated.  Key components of the submission are:
-\begin{itemize}
-	\item Revit file, modified as necessary (.rvt)
-	\item All Navisworks files (.nwc, .nwf, .nwd)
-	\item MPEG-4 animation file of your 4D schedule (.mp4) 
-	\item Excel file (.xlsx)
-	\item Word file (.docx)
-\end{itemize}
-
-
-
-
-\textbf{Late Submission}\\
-Failure to submit your assignment on or before the date and time indicated on Moodle will result in a penalty of 5\% per day or part thereof.
-
-\vspace{0.5cm}
-\textbf{Marking Scheme}
-
-\begin{table}[h!]
-     \begin{center}
-     \begin{tabular}{p{5cm}  p{5cm} }
-     \toprule
-      \textbf\large{Element} & \textbf\large{Proportion} \\ 
-    \cmidrule(r){1-1}\cmidrule(lr){2-2}
-      \textbf{Navisworks Animation} & \textbf{20\%}\\
-      \textbf{MS Project Plan } & \textbf{30\%}\\
-      \textbf{MS Excel Costing and Graph} & \textbf{20\%}\\
-      \textbf{Final Report} & \textbf{30\%}\\     
-      \\ \bottomrule
-      \end{tabular}
-      \label{tbl:markSchemeAsmt3}
-      \end{center}
- \end{table}
 
 \end{document}
