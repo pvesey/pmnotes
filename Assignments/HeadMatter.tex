@@ -13,6 +13,7 @@
 \usepackage{enumitem}
 \usepackage{booktabs}
 \usepackage{tabularx}
+\usepackage{currfile}
 
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
@@ -47,23 +48,25 @@
         frame=leftline
         }
 				
-\begin{table}%
-	\begin{minipage}{0.4\textwidth}%
-			\includegraphics[width=1\textwidth]{img/LITlogo.jpg}
-	\end{minipage}
-	\qquad
+
+\begin{figure}
 	\centering
-	\parbox{0.4\textwidth}{
-		\begin{large}			
-			\begin{tabular}{| r | l |} \hline
-				Subject: & \textbf{Project Management \& BIM}\\
-				Course: & \textbf{CM Year 4}\\
-				        & \textbf{CEM Year 4}\\	
-				Session: & \textbf{2017-2018}\\
-				Lecturer: & \textbf{Paul Vesey \footnotesize{BEng, MIE, HDip}}\\
-				\hline
-			\end{tabular}
-		\end{large}			
-	}
-\end{table}
+	\includegraphics[width=0.5\linewidth]{../img/LITlogo}
+\end{figure}
+
+
+\begin{tabularx}{\textwidth}{ |l|X| }
+	\hline
+	
+	Subject: & \textbf{Project Management \& BIM}\\
+	Course: & \textbf{Construction Management Year 4}\\
+	        & \textbf{Civil Engineering Management Year 4}\\
+	Session: & \textbf{2020-2021}\\
+	Lecturer: & \textbf{Paul Vesey \footnotesize{BEng, MIE, HDip}}\\
+	Filename: & \textbf{\currfilebase}\\
+	\hline
+\end{tabularx}
+
+
+
 \vspace{0.25cm}	
