@@ -62,4 +62,9 @@ Temporary Items
 *.bat
 
 
+#Private Files
+Private*.*
+
+
+
 
