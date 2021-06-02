@@ -1,0 +1,83 @@
+
+\documentclass[a4paper, 10pt]{article}
+\usepackage{pgf}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{pxfonts}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdftitle={Practical Exercises},    % title
+    pdfauthor={Paul Vesey},     % author
+    pdfsubject={Project Management},   % subject of the document
+    pdfcreator={},   % creator of the document
+    pdfproducer={xelatex}, % producer of the document
+    pdfkeywords={'Project Management' }, % list of keywords
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=violet,          % color of internal links (change box color with linkbordercolor)
+    citecolor=magenta,        % color of links to bibliography
+    filecolor=red,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+\setlength\parindent{0pt}
+
+
+
+\begin{document}
+
+
+
+\lstset{language=HTML,
+				basicstyle=\small,
+				breaklines=true,
+        numbers=left,
+        numberstyle=\tiny,
+        showstringspaces=false,
+        aboveskip=-20pt,
+        frame=leftline
+        }
+				
+\begin{table}%
+	\begin{minipage}{0.4\textwidth}%
+			\includegraphics[width=1\textwidth]{img/LITlogo.jpg}
+	\end{minipage}
+	\qquad
+	\centering
+	\parbox{0.4\textwidth}{
+			\begin{tabular}{| l | l |} \hline
+				\begin{large}
+				\textbf{Subject} & Project Management\\
+				\textbf{Course} & CM/CEM\\
+				\textbf{Year} & 2015-2016, Year 4\\
+				\textbf{Lecturer} & Paul Vesey
+				\end{large}
+			\end{tabular}
+	}
+\end{table}
+\vspace{0.25cm}
+				
+\newpage
+\setcounter{page}{1}
+\begin{center}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width = 6cm]{img/LITlogo.jpg}
+		\label{fig:logoa1}
+	\end{figure}
+	\Large\textbf{Project Management - 2015-2016}\\	\vspace{0.25cm}
+	\large\textbf{Paul Vesey}\vspace{0.25cm}
