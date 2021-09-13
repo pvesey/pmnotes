@@ -10,7 +10,7 @@ If(!(test-path $path))
 function Run-Compile ([string]$directory, [string]$section){
     [string]$InputFile = $section + ".Beamer.tex"
     [string]$pdfOutput = $section + ".Beamer.pdf"
-    [string]$compileFile = "..\output\" + $section + "-Slides.pdf"
+    [string]$compileFile = "..\..\output\" + $section + "-Slides.pdf"
     [string]$outputString = $section + " Lectures"
 
     Set-Location $directory
@@ -18,8 +18,11 @@ function Run-Compile ([string]$directory, [string]$section){
     Start-Process $PDFLATEX -Wait $InputFile
     Move-Item -Force $pdfOutput $compileFile
     Write-Output "---------------- Completed"
-    cd ..
+    # cd ..
+    Set-Location "D:\GitHub\pmnotes\PMBOK-7e"
 }
 
 
-Run-Compile ".\src" "draft"
+Run-Compile ".\src\1-StakeholderDomain" "Stakeholder"
+Run-Compile ".\src\2-TeamDomain" "Team"
+Run-Compile ".\src\3-DevelopmentApproachLifeCycleDomain" "Development"

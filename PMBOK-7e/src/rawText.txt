@@ -1,0 +1,239 @@
+
+2.1 STAKEHOLDER PERFORMANCE DOMAIN
+
+STAKEHOLDER PERFORMANCE DOMAIN
+
+The Stakeholder. Performance Domain addresses activities and functions associated with stakeholders.
+
+Figure 2-1. Stakeholder Performance Domain
+
+The following definitions are relevant to the Stakeholder Performance Domain: Stakeholder. An individual, group, or organization that may affect, be affected by, or perceive
+
+itself to be affected by a decision, activity, or outcome of a project, program, or portfolio. Stakeholder Analysis. A method of systematically gathering and analyzing quantitative and qualitative information to determine whose interests should be taken into account throughout
+
+the project.
+
+Effective execution of this performance domain results in the following desired outcomes
+
+A productive working relationship stakeholders
+
+throughout the project.
+
+Stakeholder agreement with project objectives.
+
+Stakeholders who are project beneficiaries are supportive
+
+and satisfied while stakeholders who may oppose the
+
+project or its deliverables do not negatively impact project
+
+outcomes.
+
+
+
+
+
+2.2 TEAM PERFORMANCE DOMAIN
+
+The Team Performance.
+
+Domain addresses activities and functions associated with the people who are responsi ble for producing project deliverables that realize business outcomes.
+
+This performance domain entails establishing the culture and environment that enables a collection of diverse individuals to evolve into a high-performing project team. This includes recognizing the activities needed to foster project team development and encouraging leadership behaviors from all project team members.
+
+The following definitions are relevant to the Team Performance Domain:
+
+Project Manager. The person assigned by the performing organization to lead the project team that is responsible for achieving the project objectives.
+
+Project Management Team. The members of the project team who are directly involved in project management activities.
+
+
+
+2.3 DEVELOPMENT APPROACH AND LIFE CYCLE PERFORMANCE DOMAIN
+
+DEVELOPMENT APPROACH AND LIFE CYCLE PERFORMANCE DOMAIN
+
+The Development Approach and Life Cycle Performance Domain addresses activities and functions associated with the development approach, cadence, and life cycle phases of the project.
+
+This performance domain entails establishing the development approach, delivery cadence, and project life cycle needed to optimize project outcomes,
+
+Effective execution of this performance domain results in the following desired outcomes:
+
+Development approaches that are consistent with project deliverables
+
+A project life cycle consisting of phases that connect the delivery of business and stakeholder value from the beginning to the end of the project.
+
+A project life cycle consisting of phases that facilitate the
+
+delivery cadence and development approach required to
+
+produce the project deliverables.
+
+Figure 2-6. Development Approach and Life Cycle Performance Domain
+
+
+
+2.4 PLANNING PERFORMANCE DOMAIN
+
+Planning organizes, elaborates, and coordinates project work throughout the project.
+
+PLANNING PERFORMANCE DOMAIN
+
+The Planning Performance Domain addresses activities and functions associated with the initial, ongoing, and evolving organization and coordination necessary for delivering project deliverables and outcomes.
+
+PUI Member benefit licensed to: Paul Vesey-G647216 Nat for distribution, sak, or reproduction, Section 2- Project Performance Domains
+
+Effective execution of this performance domain results in the following desired outcomes:
+
+The project progresses in an organized, coordinated, and
+
+deliberate manner.
+
+There is a holistic approach to delivering the project
+
+outcomes. Evolving information is elaborated to produce the deliverables and outcomes for which the project was undertaken.
+
+▶ Time spent planning is appropriate for the situation. Planning information is sufficient to manage stakeholder expectations.
+
+There is a process for the adaptation of plans throughout
+
+the project based on emerging and changing needs or
+
+conditions
+
+Figure 2-13. Planning Performance Domain
+
+
+
+
+2.5 PROJECT WORK PERFORMANCE DOMAIN
+
+PROJECT WORK PERFORMANCE DOMAIN
+
+The Project Work Performance Domain addresses activities and functions associated with establishing project processes, managing physical resources, and fostering a learning environment.
+
+Figure 2-19. Project Work Performance Domain
+
+Project work is associated with establishing the processes and performing the work to enable the project team to deliver the expected deliverables and outcomes.
+
+Effective execution of this performance domain results in the
+
+following desired outcomes: ▶ Efficient and effective project performance.
+
+► Project processes are appropriate for the project and the
+
+environment.
+
+Appropriate communication with stakeholders.
+
+► Efficient management of physical resources.
+
+Effective management of procurements.
+
+▶ Improved team capability due to continuous learning and
+
+process improvement.
+
+
+
+
+
+2.6 DELIVERY PERFORMANCE DOMAIN
+
+DELIVERY PERFORMANCE DOMAIN
+
+The Delivery Performance Domain addresses activities and functions associated with delivering the scope and quality that the project was undertaken to achieve.
+
+Figure 2-20. Delivery Performance Domain.
+
+Projects support strategy execution and the advancement of business objectives. Project delivery focuses on meeting requirements, scope, and quality expectations to produce the expected deliverables that will drive the intended outcomes.
+
+Effective execution of this performance domain results in the following desired outcomes:
+
+▶Projects contribute to business objectives and advancement
+
+of strategy
+
+Projects realize the outcomes they were initiated to deliver.
+
+▶Project benefits are realized in the time frame in which they were planned.
+
+▶ The project team has a clear understanding of requirements.
+
+▶Stakeholders accept and are satisfied with project
+
+deliverables
+
+
+
+2.7 MEASUREMENT PERFORMANCE DOMAIN
+
+MEASUREMENT PERFORMANCE DOMAIN
+
+The Measurement
+
+Performance Domain addresses activities and functions associated with assessing project performance and taking appropriate actions to maintain acceptable performance.
+
+Effective execution of this performance domain results in the following desired outcomes
+
+A reliable understanding of the status of the project.
+
+Actionable dats to facilitate decision making. data
+
+Timely and appropriate actions to keep project performance
+
+on track
+
+Achieving targets and generating business value by making informed and timely decisions based on reliable forecasts and evaluations.
+
+Figure 2-23. Measurement Performance Domain
+
+Measurement involves assessing project performance and implementing appropriate responses to maintain optimal performance.
+
+The following definitions are relevant to the Measurement Performance Domain: Metric. A description of a project or product attribute and how to measure it. Baseline. The approved version of a work product used as a basis for comparison to actual results. Dashboard. A set of charts and graphs showing progress or performance against important measures of the project.
+
+
+
+
+
+
+
+2.8 UNCERTAINTY PERFORMANCE DOMAIN
+
+UNCERTAINTY PERFORMANCE DOMAIN
+
+The Uncertainty
+
+Performance Domain addresses activities and functions associated with risk and uncertainty.
+
+Effective execution of this performance domain results in the
+
+following desired outcomes An awareness of the environment in which projects occur,
+
+including, but not limited to, the technical, social, political, market, and economic environments
+
+Proactively exploring and responding to uncertainty
+
+➤ awareness of the interdependence of multiple variables on the project.
+
+The capacity to anticipate threats and opportunities and undentand the consequences of issues.
+
+▶Project delivery with little or no negative impact from unforeseen events or condition
+
+Opportunities are realized to improve project performance
+
+and outcomes
+
+Cost and schedule reserves are utilized effectively to maintain alignment with project objectives
+
+Figure 2-32. Uncertainty Performance Domain
+
+Projects exist in environments with varying degrees of uncertainty, Uncertainty presents threats and opportunities that project teams explore, assess, and decide how to handle.
+
+
+
+
+
+
+
+
