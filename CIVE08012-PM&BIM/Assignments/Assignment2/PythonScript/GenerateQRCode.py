@@ -12,7 +12,7 @@ sh = wrkbk.active
 qrcode_list = []
   
 # iterate through excel and display data
-for row in sh.iter_rows(min_row=1, min_col=1, max_row=6, max_col=1):
+for row in sh.iter_rows(min_row=1, min_col=1, max_row=12, max_col=1):
     for cell in row:
         qrcode_list.append(cell.value)
 
@@ -31,3 +31,4 @@ for item in qrcode_list:
         img = qr.make_image(fill_color="black", back_color="white")
         filename = item + ".png"
         img.save(filename)
+        qr.clear()
