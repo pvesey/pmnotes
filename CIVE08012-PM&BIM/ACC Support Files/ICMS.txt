@@ -1,0 +1,410 @@
+1	Acquisition costs (AC)		
+1.01.	Site acquisition	
+1.01.010	Costs and premium required to procure site
+1.01.020	Compensation to existing occupiers
+1.01.030	Demolition, removal and modification of existing properties by way of payment to existing owners instead of carrying out physical work
+1.01.040	Contributions for the preservation of heritage, culture and environment
+1.01.050	Related fees to agents, lawyers,and the like
+1.01.060	Related taxes and statutory charges
+1.02.	Administrative, finance, legal and marketing expenses	
+1.02.010	Client’s general office overheads
+1.02.020	Client’s project-specific administrative expenses
+1.02.030	Interest and finance costs
+1.02.040	Legal expenses
+1.02.050	Accounting expenses
+1.02.060	Sales, leasing, marketing, advertising and promotional expenses
+1.02.070	Taxes and statutory charges related to sales and lease
+1.02.080	License and permit charges for operation and use
+
+
+
+
+2	Construction costs		
+2.01.	Construction costs Demolition, site preparation and formation	
+2.01.010	Site survey and ground investigation
+2.01.020	Environmental treatment
+2.01.030	Sampling of hazardous or useful materials or conditions
+2.01.040	Temporary fencing
+2.01.050	Demolition of existing buildings and support to adjacent structures
+2.01.060	Site surface clearance (clearing, grubbing, topsoil stripping,tree felling, minor earthwork, removal)
+2.01.070	Tree transplant
+2.01.080	Site formation and slope treatment
+2.01.090	Temporary surface drainage and dewatering
+2.01.100	Temporary protection, diversion and relocation of public utilities
+2.01.110	Erosion control
+2.02.	Substructure	
+2.02.010	Foundation piling and underpinning
+2.02.020	Foundations up to top of lowest floor slabs
+2.02.030	Basement sides and bottom
+2.03.	Structure	
+2.03.010	Structural removal and alterations
+2.03.020	Basement suspended floors (up to top of ground floor slabs)
+2.03.030	Frames and slabs (above top of ground floor slabs)
+2.03.040	Tanks, pools, sundries
+2.03.050	Composite or prefabricated work
+2.04.	Architectural works | Non- structural works	
+2.04.010	Non-structural removal and alterations
+2.04.020	External elevations
+2.04.030	Roof finishes, skylights and landscaping (including waterproofing and insulation)
+2.04.040	Internal divisions
+2.04.050	Fittings and sundries
+2.04.060	Finishes under cover
+2.04.070	Builder’s work in connection with services
+2.04.080	Composite or prefabricated work
+2.05.	Services and equipment	
+2.05.010	Heating, ventilating and air- conditioning systems/air conditioners
+2.05.020	Electrical services
+2.05.030	Fitting out lighting fittings
+2.05.040	Extra low voltage services
+2.05.050	Water supply and drainage above ground or inside basement
+2.05.060	Supply of sanitary fittings and fixtures (installation included in ‘Water supply and above ground drainage’ unless not separable from costs of ‘Fittings and sundries’)
+2.05.070	Disposal systems
+2.05.080	Fire services
+2.05.090	Gas services
+2.05.100	Movement systems
+2.05.110	Gondolas
+2.05.120	Turntables
+2.05.130	Generators
+2.05.140	Energy-saving features
+2.05.150	Water and waste water treatment equipment
+2.05.160	Fountains, pools and filtration plant
+2.05.170	Powered building signage
+2.05.175	Audio/visual entertainment system
+2.05.180	Kitchen equipment
+2.05.190	Cold room equipment
+2.05.200	Laboratory equipment
+2.05.210	Medical equipment
+2.05.220	Hotel equipment
+2.05.230	Car park or entrances access control
+2.05.240	Domestic appliances
+2.05.250	Other specialist services
+2.05.260	Builder’s profit and attendance on services
+2.06.	Surface and underground drainage
+2.06.010	Surface water drainage
+2.06.020	Storm water drainage
+2.06.030	Foul and waste water drainage
+2.06.040	Drainage disconnections and connections
+2.06.050	CCTV inspection of existing or new drains
+2.06.060	Buried process pipe
+2.07.	External and ancillary works	
+2.07.010	Permanent retaining structures
+2.07.020	Site enclosures and divisions
+2.07.030	Ancillary structures
+2.07.040	Roads and paving
+2.07.050	Landscaping (hard and soft)
+2.07.060	Fittings and equipment
+2.07.070	External services
+2.08.	Preliminaries | Constructors’ site overheads | general requirements	
+2.08.010	Construction management including site management staff and support labour
+2.08.020	Temporary access roads and storage areas, traffic management and diversion (at the Constructors’ discretion)
+2.08.030	Temporary site fencing and securities
+2.08.040	Commonly shared construction plant
+2.08.050	Commonly shared scaffolding
+2.08.060	Other temporary facilities and services
+2.08.070	Technology and communications: telephone, broadband, hardware, software
+2.08.080	Constructor’s submissions, reports and as-built documentation
+2.08.090	Quality monitoring, recording and inspections
+2.08.100	Safety, health and environmental management
+2.08.110	Insurances, bonds, guarantees and warranties
+2.08.120	Constructor’s statutory fees and charges
+2.08.130	Testing and commissioning
+2.09.	Risk allowances	
+2.09.010	Design development allowance
+2.09.020	Construction contingencies
+2.09.030	Price level adjustments
+2.09.040	Exchange rate fluctuation adjustments
+2.10.	Taxes and levies	
+2.10.010	Paid by the Constructor
+2.10.020	Paid by the Client in relation to the construction contract payments
+2.11.	Work and utilities off-site	
+2.11.010	Connections to, diversion of and capacity enhancement of public utility mains or sources off-site up to mains connections on-site
+2.11.020	Public access roads and footpaths
+2.12.	Post-completion loose furniture, fittings and equipment	
+2.12.010	Production, process, operating and loose furniture, furnishing and equipment not normally provided before completion of construction
+2.13.	Construction | Renewal | Maintenance-related consultancies and supervision	
+2.13.010	Consultants’ fees and reimbursable
+2.13.020	Charges and levies payable to statutory bodies or their appointed agencies (in connection with planning, design, tender and contract approvals, supervision and acceptance inspections)
+2.13.030	Site supervision charges (including their accommodation and travels)
+2.13.040	Payments to testing authorities or laboratories
+
+
+
+
+3	Renewal cost		
+3.01.	Demolition, site preparation and formation	
+3.01.010	Site survey and ground investigation
+3.01.020	Environmental treatment
+3.01.030	Sampling of hazardous or useful materials or conditions
+3.01.040	Temporary fencing
+3.01.050	Demolition of existing buildings and support to adjacent structures
+3.01.060	Site surface clearance (clearing, grubbing, topsoil stripping, tree felling, minor earthwork, removal)
+3.01.070	Tree transplant
+3.01.080	Site formation and slope treatment
+3.01.090	Temporary surface drainage and dewatering
+3.01.100	Temporary protection, diversion and relocation of public utilities
+3.01.110	Erosion control
+3.02.	Substructure	
+3.02.010	Foundation piling and underpinning
+3.02.020	Foundations up to top of lowest floor slabs
+3.02.030	Basement sides and bottom
+3.03.	Structure	
+3.03.010	Structural removal and alterations
+3.03.020	Basement suspended floors (up to top of ground floor slabs)
+3.03.030	Frames and slabs (above top of ground floor slabs)
+3.03.040	Tanks, pools, sundries
+3.03.050	Composite or prefabricated work
+3.04.	Architectural works | Non- structural works	
+3.04.010	Non-structural removal and alterations
+3.04.020	External elevations
+3.04.030	Roof finishes, skylights and landscaping (including waterproofing and insulation)
+3.04.040	Internal divisions
+3.04.050	Fittings and sundries
+3.04.060	Finishes under cover
+3.04.070	Builder’s work in connection with services
+3.04.080	Composite or prefabricated work
+3.05.	Services and equipment	
+3.05.010	Heating, ventilating and air- conditioning systems/air conditioners
+3.05.020	Electrical services
+3.05.030	Fitting out lighting fittings
+3.05.040	Extra low voltage services
+3.05.050	Water supply and drainage above ground or inside basement
+3.05.060	Supply of sanitary fittings and fixtures (installation included in ‘Water supply and above ground drainage’ unless not separable from costs of ‘Fittings and sundries’)
+3.05.070	Disposal systems
+3.05.080	Fire services
+3.05.090	Gas services
+3.05.100	Movement systems
+3.05.110	Gondolas
+3.05.120	Turntables
+3.05.130	Generators
+3.05.140	Energy-saving features
+3.05.150	Water and waste water treatment equipment
+3.05.160	Fountains, pools and filtration plant
+3.05.170	Powered building signage
+3.05.175	Audio/visual entertainment system
+3.05.180	Kitchen equipment
+3.05.190	Cold room equipment
+3.05.200	Laboratory equipment
+3.05.210	Medical equipment
+3.05.220	Hotel equipment
+3.05.230	Car park or entrances access control
+3.05.240	Domestic appliances
+3.05.250	Other specialist services
+3.05.260	Builder’s profit and attendance on services
+3.06.	Surface and underground drainage
+3.06.010	Surface water drainage
+3.06.020	Storm water drainage
+3.06.030	Foul and waste water drainage
+3.06.040	Drainage disconnections and connections
+3.06.050	CCTV inspection of existing or new drains
+3.06.060	Buried process pipe
+3.07.	External and ancillary works	
+3.07.010	Permanent retaining structures
+3.07.020	Site enclosures and divisions
+3.07.030	Ancillary structures
+3.07.040	Roads and paving
+3.07.050	Landscaping (hard and soft)
+3.07.060	Fittings and equipment
+3.07.070	External services
+3.08.	Preliminaries | Constructors’ site overheads | general requirements	
+3.08.010	Construction management including site management staff and support labour
+3.08.020	Temporary access roads and storage areas, traffic management and diversion (at the Constructors’ discretion)
+3.08.030	Temporary site fencing and securities
+3.08.040	Commonly shared construction plant
+3.08.050	Commonly shared scaffolding
+3.08.060	Other temporary facilities and services
+3.08.070	Technology and communications: telephone, broadband, hardware,software
+3.08.080	Constructor’s submissions, reports and as-built documentation
+3.08.090	Quality monitoring, recording and inspections
+3.08.100	Safety, health and environmental management
+3.08.110	Insurances, bonds, guarantees and warranties
+3.08.120	Constructor’s statutory fees and charges
+3.08.130	Testing and commissioning
+3.09.	Risk allowances	
+3.09.010	Design development allowance
+3.09.020	Construction contingencies
+3.09.030	Price level adjustments
+3.09.040	Exchange rate fluctuation adjustments
+3.10.	Taxes and levies	
+3.10.010	Paid by the Constructor
+3.10.020	Paid by the Client in relation to the construction contract payments
+3.11.	Work and utilities off-site	
+3.11.010	Connections to, diversion of and capacity enhancement of public utility mains or sources off-site up to mains connections on-site
+3.11.020	Public access roads and footpaths
+3.12.	Post-completion loose furniture, fittings and equipment	
+3.12.010	Production, process, operating and loose furniture, furnishing and equipment not normally provided before completion of construction
+3.13.	Construction | Renewal | Maintenance-related consultancies and supervision	
+3.13.010	Consultants’ fees and reimbursable
+3.13.020	Charges and levies payable to statutory bodies or their appointed agencies (in connection with planning, design, tender and contract approvals, supervision and acceptance inspections)
+3.13.030	Site supervision charges (including their accommodation and travels)
+3.13.040	Payments to testing authorities or laboratories
+
+
+
+
+
+4	Operation cost		
+4.01.	Cleaning	
+4.01.010	External cleaning (routine and periodic)
+4.01.020	Internal cleaning (routine and periodic)
+4.01.030	Specialist cleaning (define type)
+4.02.	Utilities	
+4.02.010	Fuel (state type: gas/electricity/oil and other fuel sources)
+4.02.020	Water, drainage and sewerage
+4.03.	Waste management	
+4.03.010	Waste collection and disposal
+4.03.020	Recycling and savage
+4.04.	Security	
+4.04.010	Physical security
+4.04.020	Remote monitoring
+4.05.	Information and communications technology	
+4.05.010	Communication systems
+4.05.020	Specialist technology / sensors
+4.06.	Operators’ site overheads | general requirements	
+4.06.010	Administration
+4.06.020	Property insurance
+4.07.	Risk Allowances	
+4.07.010	Operation related (user definable)
+4.07.020	Contractual obligations
+4.08.	Taxes and levies	
+4.08.010	Taxes
+4.08.020	Levies
+
+
+
+
+
+5	Maintenance cost		
+5.01.	Demolition, site preparation and formation	
+5.01.010	Site survey and ground investigation
+5.01.020	Environmental treatment
+5.01.030	Sampling of hazardous or useful materials or conditions
+5.01.040	Temporary fencing
+5.01.050	Demolition of existing buildings and support to adjacent structures
+5.01.060	Site surface clearance (clearing, grubbing, topsoil stripping, tree felling, minor earthwork, removal)
+5.01.070	Tree transplant
+5.01.080	Site formation and slope treatment
+5.01.090	Temporary surface drainage and dewatering
+5.01.100	Temporary protection, diversion and relocation of public utilities
+5.01.110	Erosion control
+5.02.	Substructure	
+5.02.010	Foundation piling and underpinning
+5.02.020	Foundations up to top of lowest floor slabs
+5.02.030	Basement sides and bottom
+5.03.	Structure	
+5.03.010	Structural removal and alterations
+5.03.020	Basement suspended floors (up to top of ground floor slabs)
+5.03.030	Frames and slabs (above top of ground floor slabs)
+5.03.040	Tanks, pools, sundries
+5.03.050	Composite or prefabricated work
+5.04.	Architectural works | Non- structural works	
+5.04.010	Non-structural removal and alterations
+5.04.020	External elevations
+5.04.030	Roof finishes, skylights and landscaping (including waterproofing and insulation)
+5.04.040	Internal divisions
+5.04.050	Fittings and sundries
+5.04.060	Finishes under cover
+5.04.070	Builder’s work in connection with services
+5.04.080	Composite or prefabricated work
+5.05.	Services and equipment	
+5.05.010	Heating, ventilating and air- conditioning systems/airc onditioners
+5.05.020	Electrical services
+5.05.030	Fitting out lighting fittings
+5.05.040	Extra low voltage services
+5.05.050	Water supply and drainage above ground or inside basement
+5.05.060	Supply of sanitary fittings and fixtures (installation included in ‘Water supply and above ground drainage’ unless not separable from costs of ‘Fittings and sundries’)
+5.05.070	Disposal systems
+5.05.080	Fire services
+5.05.090	Gas services
+5.05.100	Movement systems
+5.05.110	Gondolas
+5.05.120	Turntables
+5.05.130	Generators
+5.05.140	Energy-saving features
+5.05.150	Water and waste water treatment equipment
+5.05.160	Fountains, pools and filtration plant
+5.05.170	Powered building signage
+5.05.175	Audio/visual entertainment system
+5.05.180	Kitchen equipment
+5.05.190	Cold room equipment
+5.05.200	Laboratory equipment
+5.05.210	Medical equipment
+5.05.220	Hotel equipment
+5.05.230	Car park or entrances access control
+5.05.240	Domestic appliances
+5.05.250	Other specialist services
+5.05.260	Builder’s profit and attendance on services
+5.06.	Maintenance Surface and underground drainage
+5.06.010	Surface water drainage
+5.06.020	Storm water drainage
+5.06.030	Foul and waste water drainage
+5.06.040	Drainage disconnections and connections
+5.06.050	CCTV inspection of existing or new drains
+5.06.060	Buried process pipe
+5.07.	External and ancillary works	
+5.07.010	Permanent retaining structures
+5.07.020	Site enclosures and divisions
+5.07.030	Ancillary structures
+5.07.040	Roads and paving
+5.07.050	Landscaping (hard and soft)
+5.07.060	Fittings and equipment
+5.07.070	External services
+5.08.	Preliminaries | Constructors’ site overheads | general requirements	
+5.08.010	Construction management including site management staff and support labour
+5.08.020	Temporary access roads and storage areas, traffic management and diversion (at the Constructors’ discretion)
+5.08.030	Temporary site fencing and securities
+5.08.040	Commonly shared construction plant
+5.08.050	Commonly shared scaffolding
+5.08.060	Other temporary facilities and services
+5.08.070	Technology and communications: telephone, broadband, hardware, software
+5.08.080	Constructor’s submissions, reports and as-built documentation
+5.08.090	Quality monitoring, recording and inspections
+5.08.100	Safety, health and environmental management
+5.08.110	Insurances, bonds, guarantees and warranties
+5.08.120	Constructor’s statutory fees and charges
+5.08.130	Testing and commissioning
+5.09.	Risk allowances	
+5.09.010	Design development allowance
+5.09.020	Construction contingencies
+5.09.030	Price level adjustments
+5.09.040	Exchange rate fluctuation adjustments
+5.10.	Taxes and levies	
+5.10.010	Paid by the Constructor
+5.10.020	Paid by the Client in relation to the construction contract payments
+5.11.	Work and utilities off-site	
+5.11.010	Connections to, diversion of and capacity enhancement of public utility mains or sources off-site up to mains connections on-site
+5.11.020	Public access roads and footpaths
+5.12.	Post-completion loose furniture, fittings and equipment	
+5.12.010	Production, process, operating and loose furniture, furnishing and equipment not normally provided before completion of construction
+5.13.	Construction | Renewal| Maintenance-related consultancies and supervision
+5.13.010	Consultants’ fees and reimbursable
+5.13.020	Charges and levies payable to statutory bodies or their appointed agencies (in connection with planning, design, tender and contract approvals, supervision and acceptance inspections)
+5.13.030	Site supervision charges (including their accommodation and travels)
+5.13.040	Payments to testing authorities or laboratories
+
+
+
+
+6	End of life costs		
+6.01.	Disposal inspection	
+6.01.010	Dilapidations report
+6.01.020	Contractual handback obligations
+6.02.	Decommissioning and decontamination	
+6.02.010	Shutdowns and decommissioning
+6.02.020	Decontamination
+6.03.	Demolition, reclamation and salvage	
+6.03.010	Demolition
+6.03.020	Reclamation
+6.03.030	Salvage
+6.04.	Reinstatement	
+6.04.010	Agreed reinstatement works
+6.04.020	Contractual obligations
+6.05.	Constructors’ site overheads | general requirements	
+6.05.010	Administration
+6.05.020	Overheads (project specific)
+6.06.	Risk Allowances	
+6.06.010	End of life specific (user definable)
+6.06.020	Abnormal risks (user definable)
+6.07.	Taxes and levies	
+6.07.010	Taxes
+6.07.020	Levies
+6.07.030	Credit for grants
