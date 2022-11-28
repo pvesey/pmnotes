@@ -1,4 +1,6 @@
-$PDFLATEX = "C:\Program Files\MiKTeX 2.9\miktex\bin\x64\pdflatex.exe"
+#$PDFLATEX = "C:\Program Files\MiKTeX 2.9\miktex\bin\x64\pdflatex.exe"
+$PDFLATEX = "C:\Program Files\MiKTeX\miktex\bin\x64\pdflatex.exe"
+
 
 $path = ".\CompiledOutput"
 
@@ -22,13 +24,13 @@ function Run-Compile ([string]$directory, [string]$section){
 }
 
 
-Run-Compile ".\01 Intro" "Intro"
-Run-Compile ".\04 Integration" "Integration"
-Run-Compile ".\05 Scope" "Scope"
+#Run-Compile ".\01 Intro" "Intro"
+#Run-Compile ".\04 Integration" "Integration"
+#Run-Compile ".\05 Scope" "Scope"
 Run-Compile ".\06 Time" "Time"
 Run-Compile ".\07 Cost" "Cost"
-Run-Compile ".\08 Quality" "Quality"
-Run-Compile ".\09 HR" "HRM"
-Run-Compile ".\10 Communications" "Comm"
-Run-Compile ".\11 Risk" "Risk"
-Run-Compile ".\12 Procurement" "Proc"
+#Run-Compile ".\08 Quality" "Quality"
+#Run-Compile ".\09 HR" "HRM"
+#Run-Compile ".\10 Communications" "Comm"
+#Run-Compile ".\11 Risk" "Risk"
+#Run-Compile ".\12 Procurement" "Proc"
